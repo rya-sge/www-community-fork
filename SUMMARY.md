@@ -1,0 +1,349 @@
+# Project File Summary
+
+This file lists all files currently present in the project with brief descriptions.
+
+## Root Files
+- `404.html`: Custom 404 error page.
+- `README.md`: Project overview and contribution guidance.
+- `SUMMARY.md`: Top-level project file.
+- `_config.yml`: Jekyll site configuration.
+- `index.md`: Main landing page content for the site.
+- `info.md`: General information page content.
+- `tab_initiatives.md`: Initiatives tab/navigation page content.
+- `tools_schema.json`: Schema definition for tools data/structure.
+
+## Site Content (pages/)
+- `pages/ASP.NET_Request_Validation.md`: Security documentation page: ASP.NET_Request_Validation.
+- `pages/Access_Control.md`: Security documentation page: Access_Control.
+- `pages/Anti_CRSF_Tokens_ASP.NET.md`: Security documentation page: Anti_CRSF_Tokens_ASP.NET.
+- `pages/Automated_Audit_using_WAPITI.md`: Security documentation page: Automated_Audit_using_WAPITI.
+- `pages/Broken_Access_Control.md`: Security documentation page: Broken_Access_Control.
+- `pages/Component_Analysis.md`: Security documentation page: Component_Analysis.
+- `pages/DASVS.md`: Security documentation page: DASVS.
+- `pages/Double_Encoding.md`: Security documentation page: Double_Encoding.
+- `pages/Fail_securely.md`: Security documentation page: Fail_securely.
+- `pages/Free_for_Open_Source_Application_Security_Tools.md`: Security documentation page: Free_for_Open_Source_Application_Security_Tools.
+- `pages/Fuzzing.md`: Security documentation page: Fuzzing.
+- `pages/Hibernate.md`: Security documentation page: Hibernate.
+- `pages/How_to_write_insecure_code.md`: Security documentation page: How_to_write_insecure_code.
+- `pages/HttpOnly.md`: Security documentation page: HttpOnly.
+- `pages/Improper_Error_Handling.md`: Security documentation page: Improper_Error_Handling.
+- `pages/Injection_Flaws.md`: Security documentation page: Injection_Flaws.
+- `pages/Injection_Theory.md`: Security documentation page: Injection_Theory.
+- `pages/OWASP_Application_Security_FAQ.md`: Security documentation page: OWASP_Application_Security_FAQ.
+- `pages/OWASP_Risk_Rating_Methodology.md`: Security documentation page: OWASP_Risk_Rating_Methodology.
+- `pages/OWASP_Secure_Software_Contract_Annex.md`: Security documentation page: OWASP_Secure_Software_Contract_Annex.
+- `pages/OWASP_Validation_Regex_Repository.md`: Security documentation page: OWASP_Validation_Regex_Repository.
+- `pages/Proactive_Security_Catching_Vulnerabilities_Early_in_SDLC.md`: Security documentation page: Proactive_Security_Catching_Vulnerabilities_Early_in_SDLC.
+- `pages/SameSite.md`: Security documentation page: SameSite.
+- `pages/Security_Headers.md`: Security documentation page: Security_Headers.
+- `pages/Session_Timeout.md`: Security documentation page: Session_Timeout.
+- `pages/Slow_Down_Online_Guessing_Attacks_with_Device_Cookies.md`: Security documentation page: Slow_Down_Online_Guessing_Attacks_with_Device_Cookies.
+- `pages/Source_Code_Analysis_Tools.md`: Security documentation page: Source_Code_Analysis_Tools.
+- `pages/Threat_Modeling.md`: Security documentation page: Threat_Modeling.
+- `pages/Threat_Modeling_Process.md`: Security documentation page: Threat_Modeling_Process.
+- `pages/Types_of_Cross-Site_Scripting.md`: Security documentation page: Types_of_Cross-Site_Scripting.
+- `pages/Using_the_Java_Cryptographic_Extensions.md`: Security documentation page: Using_the_Java_Cryptographic_Extensions.
+- `pages/Virtual_Patching_Best_Practices.md`: Security documentation page: Virtual_Patching_Best_Practices.
+- `pages/Vulnerability_Scanning_Tools.md`: Security documentation page: Vulnerability_Scanning_Tools.
+- `pages/Web_Application_Firewall.md`: Security documentation page: Web_Application_Firewall.
+- `pages/api-security-tools.md`: Security documentation page: api-security-tools.
+- `pages/attacks/Abuse_of_Functionality.md`: Attack pattern article: Abuse_of_Functionality.
+- `pages/attacks/Binary_planting.md`: Attack pattern article: Binary_planting.
+- `pages/attacks/Blind_SQL_Injection.md`: Attack pattern article: Blind_SQL_Injection.
+- `pages/attacks/Blind_XPath_Injection.md`: Attack pattern article: Blind_XPath_Injection.
+- `pages/attacks/Brute_force_attack.md`: Attack pattern article: Brute_force_attack.
+- `pages/attacks/Buffer_Overflow_via_Environment_Variables.md`: Attack pattern article: Buffer_Overflow_via_Environment_Variables.
+- `pages/attacks/Buffer_overflow_attack.md`: Attack pattern article: Buffer_overflow_attack.
+- `pages/attacks/CORS_OriginHeaderScrutiny.md`: Attack pattern article: CORS_OriginHeaderScrutiny.
+- `pages/attacks/CORS_RequestPreflightScrutiny.md`: Attack pattern article: CORS_RequestPreflightScrutiny.
+- `pages/attacks/CSV_Injection.md`: Attack pattern article: CSV_Injection.
+- `pages/attacks/Cache_Poisoning.md`: Attack pattern article: Cache_Poisoning.
+- `pages/attacks/Cash_Overflow.md`: Attack pattern article: Cash_Overflow.
+- `pages/attacks/Clickjacking.md`: Attack pattern article: Clickjacking.
+- `pages/attacks/Code_Injection.md`: Attack pattern article: Code_Injection.
+- `pages/attacks/Command_Injection.md`: Attack pattern article: Command_Injection.
+- `pages/attacks/Comment_Injection_Attack.md`: Attack pattern article: Comment_Injection_Attack.
+- `pages/attacks/Content_Spoofing.md`: Attack pattern article: Content_Spoofing.
+- `pages/attacks/Credential_stuffing.md`: Attack pattern article: Credential_stuffing.
+- `pages/attacks/Cross-User_Defacement.md`: Attack pattern article: Cross-User_Defacement.
+- `pages/attacks/Cross-site-Scripting-(XSS).md`: Attack pattern article: Cross-site-Scripting-(XSS).
+- `pages/attacks/Cross_Frame_Scripting.md`: Attack pattern article: Cross_Frame_Scripting.
+- `pages/attacks/Cross_Site_History_Manipulation_(XSHM).md`: Attack pattern article: Cross_Site_History_Manipulation_(XSHM).
+- `pages/attacks/Cross_Site_Tracing.md`: Attack pattern article: Cross_Site_Tracing.
+- `pages/attacks/Cryptanalysis.md`: Attack pattern article: Cryptanalysis.
+- `pages/attacks/Custom_Special_Character_Injection.md`: Attack pattern article: Custom_Special_Character_Injection.
+- `pages/attacks/DOM_Based_XSS.md`: Attack pattern article: DOM_Based_XSS.
+- `pages/attacks/Denial_of_Service.md`: Attack pattern article: Denial_of_Service.
+- `pages/attacks/Direct_Dynamic_Code_Evaluation_Eval_Injection.md`: Attack pattern article: Direct_Dynamic_Code_Evaluation_Eval_Injection.
+- `pages/attacks/Embedding_Null_Code.md`: Attack pattern article: Embedding_Null_Code.
+- `pages/attacks/Execution_After_Redirect_(EAR).md`: Attack pattern article: Execution_After_Redirect_(EAR).
+- `pages/attacks/Forced_browsing.md`: Attack pattern article: Forced_browsing.
+- `pages/attacks/Form_action_hijacking.md`: Attack pattern article: Form_action_hijacking.
+- `pages/attacks/Format_string_attack.md`: Attack pattern article: Format_string_attack.
+- `pages/attacks/Full_Path_Disclosure.md`: Attack pattern article: Full_Path_Disclosure.
+- `pages/attacks/Function_Injection.md`: Attack pattern article: Function_Injection.
+- `pages/attacks/HTTP2_Reset_Attack.md`: Attack pattern article: HTTP2_Reset_Attack.
+- `pages/attacks/HTTP_Response_Splitting.md`: Attack pattern article: HTTP_Response_Splitting.
+- `pages/attacks/LDAP_Injection.md`: Attack pattern article: LDAP_Injection.
+- `pages/attacks/Log_Injection.md`: Attack pattern article: Log_Injection.
+- `pages/attacks/MCP_Tool_Poisoning.md`: Attack pattern article: MCP_Tool_Poisoning.
+- `pages/attacks/Man-in-the-browser_attack.md`: Attack pattern article: Man-in-the-browser_attack.
+- `pages/attacks/Man-in-the-middle_attack.md`: Attack pattern article: Man-in-the-middle_attack.
+- `pages/attacks/Mobile_code_invoking_untrusted_mobile_code.md`: Attack pattern article: Mobile_code_invoking_untrusted_mobile_code.
+- `pages/attacks/Mobile_code_non-final_public_field.md`: Attack pattern article: Mobile_code_non-final_public_field.
+- `pages/attacks/Mobile_code_object_hijack.md`: Attack pattern article: Mobile_code_object_hijack.
+- `pages/attacks/Parameter_Delimiter.md`: Attack pattern article: Parameter_Delimiter.
+- `pages/attacks/Password_Spraying_Attack.md`: Attack pattern article: Password_Spraying_Attack.
+- `pages/attacks/Path_Traversal.md`: Attack pattern article: Path_Traversal.
+- `pages/attacks/Qrljacking.md`: Attack pattern article: Qrljacking.
+- `pages/attacks/RSQL_Injection.md`: Attack pattern article: RSQL_Injection.
+- `pages/attacks/Reflected_DOM_Injection.md`: Attack pattern article: Reflected_DOM_Injection.
+- `pages/attacks/Regular_expression_Denial_of_Service_-_ReDoS.md`: Attack pattern article: Regular_expression_Denial_of_Service_-_ReDoS.
+- `pages/attacks/Repudiation_Attack.md`: Attack pattern article: Repudiation_Attack.
+- `pages/attacks/Resource_Injection.md`: Attack pattern article: Resource_Injection.
+- `pages/attacks/Reverse_Tabnabbing.md`: Attack pattern article: Reverse_Tabnabbing.
+- `pages/attacks/SQL_Injection.md`: Attack pattern article: SQL_Injection.
+- `pages/attacks/SQL_Injection_Bypassing_WAF.md`: Attack pattern article: SQL_Injection_Bypassing_WAF.
+- `pages/attacks/Server-Side_Includes_(SSI)_Injection.md`: Attack pattern article: Server-Side_Includes_(SSI)_Injection.
+- `pages/attacks/Server_Side_Request_Forgery.md`: Attack pattern article: Server_Side_Request_Forgery.
+- `pages/attacks/Session_Prediction.md`: Attack pattern article: Session_Prediction.
+- `pages/attacks/Session_fixation.md`: Attack pattern article: Session_fixation.
+- `pages/attacks/Session_hijacking_attack.md`: Attack pattern article: Session_hijacking_attack.
+- `pages/attacks/Setting_Manipulation.md`: Attack pattern article: Setting_Manipulation.
+- `pages/attacks/Special_Element_Injection.md`: Attack pattern article: Special_Element_Injection.
+- `pages/attacks/Spyware.md`: Attack pattern article: Spyware.
+- `pages/attacks/Traffic_flood.md`: Attack pattern article: Traffic_flood.
+- `pages/attacks/Trojan_Horse.md`: Attack pattern article: Trojan_Horse.
+- `pages/attacks/Unicode_Encoding.md`: Attack pattern article: Unicode_Encoding.
+- `pages/attacks/Web_Parameter_Tampering.md`: Attack pattern article: Web_Parameter_Tampering.
+- `pages/attacks/Windows_DATA_alternate_data_stream.md`: Attack pattern article: Windows_DATA_alternate_data_stream.
+- `pages/attacks/XPATH_Injection.md`: Attack pattern article: XPATH_Injection.
+- `pages/attacks/XSRF.md`: Attack pattern article: XSRF.
+- `pages/attacks/XSS_in_Converting_File_Content_to_Text.md`: Attack pattern article: XSS_in_Converting_File_Content_to_Text.
+- `pages/attacks/Xss_in_subtitle.md`: Attack pattern article: Xss_in_subtitle.
+- `pages/attacks/cross-site-request-forgery.md`: Attack pattern article: cross-site-request-forgery.
+- `pages/attacks/index.md`: Attack pattern article: index.
+- `pages/attacks/info.md`: Attack pattern article: info.
+- `pages/attacks/insecure_direct_object_reference.md`: Attack pattern article: insecure_direct_object_reference.
+- `pages/attacks/ip_spoofing_via_http_headers.md`: Attack pattern article: ip_spoofing_via_http_headers.
+- `pages/attacks/lies-in-the-loop.md`: Attack pattern article: lies-in-the-loop.
+- `pages/attacks/open_redirect.md`: Attack pattern article: open_redirect.
+- `pages/attacks/prompt-injection.md`: Attack pattern article: prompt-injection.
+- `pages/attacks/web_service_amplificaiton.md`: Attack pattern article: web_service_amplificaiton.
+- `pages/controls/Blocking_Brute_Force_Attacks.md`: Security control/practice guidance: Blocking_Brute_Force_Attacks.
+- `pages/controls/Bytecode_obfuscation.md`: Security control/practice guidance: Bytecode_obfuscation.
+- `pages/controls/Certificate_and_Public_Key_Pinning.md`: Security control/practice guidance: Certificate_and_Public_Key_Pinning.
+- `pages/controls/Changing_Registered_Email_Address_For_An_Account.md`: Security control/practice guidance: Changing_Registered_Email_Address_For_An_Account.
+- `pages/controls/Content_Security_Policy.md`: Security control/practice guidance: Content_Security_Policy.
+- `pages/controls/Cross_Origin_Resource_Policy.md`: Security control/practice guidance: Cross_Origin_Resource_Policy.
+- `pages/controls/Detect_profiling_phase_into_web_application.md`: Security control/practice guidance: Detect_profiling_phase_into_web_application.
+- `pages/controls/Intrusion_Detection.md`: Security control/practice guidance: Intrusion_Detection.
+- `pages/controls/Least_Privilege_Principle.md`: Security control/practice guidance: Least_Privilege_Principle.
+- `pages/controls/SIM_swapping_prevention_guidelines.md`: Security control/practice guidance: SIM_swapping_prevention_guidelines.
+- `pages/controls/SSRF_Prevention_in_Nodejs.md`: Security control/practice guidance: SSRF_Prevention_in_Nodejs.
+- `pages/controls/SecureAttribute.md`: Security control/practice guidance: SecureAttribute.
+- `pages/controls/Session_Fixation_Protection.md`: Security control/practice guidance: Session_Fixation_Protection.
+- `pages/controls/Static_Code_Analysis.md`: Security control/practice guidance: Static_Code_Analysis.
+- `pages/controls/Subresource_Integrity.md`: Security control/practice guidance: Subresource_Integrity.
+- `pages/controls/Web Application Deception Technology.md`: Security control/practice guidance: Web Application Deception Technology.
+- `pages/controls/index.md`: Security control/practice guidance: index.
+- `pages/controls/info.md`: Security control/practice guidance: info.
+- `pages/favicons-database.md`: Security documentation page: favicons-database.
+- `pages/initiatives/bugbounty.md`: Initiatives overview or program page: bugbounty.
+- `pages/initiatives/code_sprint/cs2017.md`: Code Sprint initiative page: cs2017.
+- `pages/initiatives/code_sprint/index.md`: Code Sprint initiative page: index.
+- `pages/initiatives/code_sprint/info.md`: Code Sprint initiative page: info.
+- `pages/initiatives/code_sprint/wcs2014.md`: Code Sprint initiative page: wcs2014.
+- `pages/initiatives/gsoc/gsoc2012ideas.md`: Google Summer of Code initiative page: gsoc2012ideas.
+- `pages/initiatives/gsoc/gsoc2013ideas.md`: Google Summer of Code initiative page: gsoc2013ideas.
+- `pages/initiatives/gsoc/gsoc2013zapsaml.md`: Google Summer of Code initiative page: gsoc2013zapsaml.
+- `pages/initiatives/gsoc/gsoc2014ideas.md`: Google Summer of Code initiative page: gsoc2014ideas.
+- `pages/initiatives/gsoc/gsoc2015ideas.md`: Google Summer of Code initiative page: gsoc2015ideas.
+- `pages/initiatives/gsoc/gsoc2016ideas.md`: Google Summer of Code initiative page: gsoc2016ideas.
+- `pages/initiatives/gsoc/gsoc2017.md`: Google Summer of Code initiative page: gsoc2017.
+- `pages/initiatives/gsoc/gsoc2017ideas.md`: Google Summer of Code initiative page: gsoc2017ideas.
+- `pages/initiatives/gsoc/gsoc2018ideas.md`: Google Summer of Code initiative page: gsoc2018ideas.
+- `pages/initiatives/gsoc/gsoc2019.md`: Google Summer of Code initiative page: gsoc2019.
+- `pages/initiatives/gsoc/gsoc2019ideas.md`: Google Summer of Code initiative page: gsoc2019ideas.
+- `pages/initiatives/gsoc/gsoc2020.md`: Google Summer of Code initiative page: gsoc2020.
+- `pages/initiatives/gsoc/gsoc2020ideas.md`: Google Summer of Code initiative page: gsoc2020ideas.
+- `pages/initiatives/gsoc/gsoc2021.md`: Google Summer of Code initiative page: gsoc2021.
+- `pages/initiatives/gsoc/gsoc2021ideas.md`: Google Summer of Code initiative page: gsoc2021ideas.
+- `pages/initiatives/gsoc/gsoc2022.md`: Google Summer of Code initiative page: gsoc2022.
+- `pages/initiatives/gsoc/gsoc2022ideas.md`: Google Summer of Code initiative page: gsoc2022ideas.
+- `pages/initiatives/gsoc/gsoc2023.md`: Google Summer of Code initiative page: gsoc2023.
+- `pages/initiatives/gsoc/gsoc2023ideas.md`: Google Summer of Code initiative page: gsoc2023ideas.
+- `pages/initiatives/gsoc/gsoc2024.md`: Google Summer of Code initiative page: gsoc2024.
+- `pages/initiatives/gsoc/gsoc2024ideas.md`: Google Summer of Code initiative page: gsoc2024ideas.
+- `pages/initiatives/gsoc/gsoc2025.md`: Google Summer of Code initiative page: gsoc2025.
+- `pages/initiatives/gsoc/gsoc2025ideas.md`: Google Summer of Code initiative page: gsoc2025ideas.
+- `pages/initiatives/gsoc/gsoc2026.md`: Google Summer of Code initiative page: gsoc2026.
+- `pages/initiatives/gsoc/gsoc2026ideas.md`: Google Summer of Code initiative page: gsoc2026ideas.
+- `pages/initiatives/gsoc/gsoc_ai_usage_guidelines.md`: Google Summer of Code initiative page: gsoc_ai_usage_guidelines.
+- `pages/initiatives/gsoc/gsoc_sat.md`: Google Summer of Code initiative page: gsoc_sat.
+- `pages/initiatives/gsoc/index.md`: Google Summer of Code initiative page: index.
+- `pages/initiatives/gsoc/info.md`: Google Summer of Code initiative page: info.
+- `pages/initiatives/gsod/historical/2019_ideas.md`: Historical GSoD archive page: 2019_ideas.
+- `pages/initiatives/gsod/historical/2020_ideas.md`: Historical GSoD archive page: 2020_ideas.
+- `pages/initiatives/gsod/historical/info.md`: Historical GSoD archive page: info.
+- `pages/initiatives/gsod/ideas.md`: Google Season of Docs initiative page: ideas.
+- `pages/initiatives/gsod/index.md`: Google Season of Docs initiative page: index.
+- `pages/initiatives/gsod/info.md`: Google Season of Docs initiative page: info.
+- `pages/initiatives/index.md`: Initiatives overview or program page: index.
+- `pages/initiatives/info.md`: Initiatives overview or program page: info.
+- `pages/misc/rrm_debate.md`: Miscellaneous content page: rrm_debate.
+- `pages/password-special-characters.md`: Security documentation page: password-special-characters.
+- `pages/social/chapters_all_day/assets/images/Logo-Chapters_All_Day-Transparent.jpg`: Security documentation page: Logo-Chapters_All_Day-Transparent.jpg.
+- `pages/social/chapters_all_day/index.md`: Chapters All Day event page: index.
+- `pages/social/chapters_all_day/info.md`: Chapters All Day event page: info.
+- `pages/social/chapters_all_day/schedule/index.md`: Chapters All Day event schedule page.
+- `pages/social/chapters_all_day/speakers/index.md`: Chapters All Day speakers page.
+- `pages/social/community_events.md`: Community/social page: community_events.
+- `pages/social/index.md`: Community/social page: index.
+- `pages/vulnerabilities/Allowing_Domains_or_Accounts_to_Expire.md`: Vulnerability reference article: Allowing_Domains_or_Accounts_to_Expire.
+- `pages/vulnerabilities/Buffer_Overflow.md`: Vulnerability reference article: Buffer_Overflow.
+- `pages/vulnerabilities/Business_logic_vulnerability.md`: Vulnerability reference article: Business_logic_vulnerability.
+- `pages/vulnerabilities/CRLF_Injection.md`: Vulnerability reference article: CRLF_Injection.
+- `pages/vulnerabilities/Catch_NullPointerException.md`: Vulnerability reference article: Catch_NullPointerException.
+- `pages/vulnerabilities/Covert_storage_channel.md`: Vulnerability reference article: Covert_storage_channel.
+- `pages/vulnerabilities/Deserialization_of_untrusted_data.md`: Vulnerability reference article: Deserialization_of_untrusted_data.
+- `pages/vulnerabilities/Directory_Restriction_Error.md`: Vulnerability reference article: Directory_Restriction_Error.
+- `pages/vulnerabilities/Doubly_freeing_memory.md`: Vulnerability reference article: Doubly_freeing_memory.
+- `pages/vulnerabilities/Empty_String_Password.md`: Vulnerability reference article: Empty_String_Password.
+- `pages/vulnerabilities/Expression_Language_Injection.md`: Vulnerability reference article: Expression_Language_Injection.
+- `pages/vulnerabilities/Full_Trust_CLR_Verification_issue_Exploiting_Passing_Reference_Types_by_Reference.md`: Vulnerability reference article: Full_Trust_CLR_Verification_issue_Exploiting_Passing_Reference_Types_by_Reference.
+- `pages/vulnerabilities/Heartbleed_Bug.md`: Vulnerability reference article: Heartbleed_Bug.
+- `pages/vulnerabilities/Improper_Data_Validation.md`: Vulnerability reference article: Improper_Data_Validation.
+- `pages/vulnerabilities/Improper_pointer_subtraction.md`: Vulnerability reference article: Improper_pointer_subtraction.
+- `pages/vulnerabilities/Information_exposure_through_query_strings_in_url.md`: Vulnerability reference article: Information_exposure_through_query_strings_in_url.
+- `pages/vulnerabilities/Injection_problem.md`: Vulnerability reference article: Injection_problem.
+- `pages/vulnerabilities/Insecure Deserialization.md`: Vulnerability reference article: Insecure Deserialization.
+- `pages/vulnerabilities/Insecure_Compiler_Optimization.md`: Vulnerability reference article: Insecure_Compiler_Optimization.
+- `pages/vulnerabilities/Insecure_Randomness.md`: Vulnerability reference article: Insecure_Randomness.
+- `pages/vulnerabilities/Insecure_Temporary_File.md`: Vulnerability reference article: Insecure_Temporary_File.
+- `pages/vulnerabilities/Insecure_Third_Party_Domain_Access.md`: Vulnerability reference article: Insecure_Third_Party_Domain_Access.
+- `pages/vulnerabilities/Insecure_Transport.md`: Vulnerability reference article: Insecure_Transport.
+- `pages/vulnerabilities/Insufficient_Entropy.md`: Vulnerability reference article: Insufficient_Entropy.
+- `pages/vulnerabilities/Insufficient_Session-ID_Length.md`: Vulnerability reference article: Insufficient_Session-ID_Length.
+- `pages/vulnerabilities/Least_Privilege_Violation.md`: Vulnerability reference article: Least_Privilege_Violation.
+- `pages/vulnerabilities/Memory_leak.md`: Vulnerability reference article: Memory_leak.
+- `pages/vulnerabilities/Missing_Error_Handling.md`: Vulnerability reference article: Missing_Error_Handling.
+- `pages/vulnerabilities/Missing_XML_Validation.md`: Vulnerability reference article: Missing_XML_Validation.
+- `pages/vulnerabilities/Multiple_admin_levels.md`: Vulnerability reference article: Multiple_admin_levels.
+- `pages/vulnerabilities/Null_Dereference.md`: Vulnerability reference article: Null_Dereference.
+- `pages/vulnerabilities/OWASP_.NET_Vulnerability_Research.md`: Vulnerability reference article: OWASP_.NET_Vulnerability_Research.
+- `pages/vulnerabilities/Overly_Permissive_Regular_Expression.md`: Vulnerability reference article: Overly_Permissive_Regular_Expression.
+- `pages/vulnerabilities/PHP_File_Inclusion.md`: Vulnerability reference article: PHP_File_Inclusion.
+- `pages/vulnerabilities/PHP_Object_Injection.md`: Vulnerability reference article: PHP_Object_Injection.
+- `pages/vulnerabilities/PRNG_Seed_Error.md`: Vulnerability reference article: PRNG_Seed_Error.
+- `pages/vulnerabilities/Password_Management_Hardcoded_Password.md`: Vulnerability reference article: Password_Management_Hardcoded_Password.
+- `pages/vulnerabilities/Password_Plaintext_Storage.md`: Vulnerability reference article: Password_Plaintext_Storage.
+- `pages/vulnerabilities/Poor_Logging_Practice.md`: Vulnerability reference article: Poor_Logging_Practice.
+- `pages/vulnerabilities/Portability_Flaw.md`: Vulnerability reference article: Portability_Flaw.
+- `pages/vulnerabilities/Privacy_Violation.md`: Vulnerability reference article: Privacy_Violation.
+- `pages/vulnerabilities/Process_Control.md`: Vulnerability reference article: Process_Control.
+- `pages/vulnerabilities/Race_Conditions.md`: Vulnerability reference article: Race_Conditions.
+- `pages/vulnerabilities/Return_Inside_Finally_Block.md`: Vulnerability reference article: Return_Inside_Finally_Block.
+- `pages/vulnerabilities/Session_Variable_Overloading.md`: Vulnerability reference article: Session_Variable_Overloading.
+- `pages/vulnerabilities/String_Termination_Error.md`: Vulnerability reference article: String_Termination_Error.
+- `pages/vulnerabilities/Unchecked_Error_Condition.md`: Vulnerability reference article: Unchecked_Error_Condition.
+- `pages/vulnerabilities/Unchecked_Return_Value_Missing_Check_against_Null.md`: Vulnerability reference article: Unchecked_Return_Value_Missing_Check_against_Null.
+- `pages/vulnerabilities/Undefined_Behavior.md`: Vulnerability reference article: Undefined_Behavior.
+- `pages/vulnerabilities/Unreleased_Resource.md`: Vulnerability reference article: Unreleased_Resource.
+- `pages/vulnerabilities/Unrestricted_File_Upload.md`: Vulnerability reference article: Unrestricted_File_Upload.
+- `pages/vulnerabilities/Unsafe_JNI.md`: Vulnerability reference article: Unsafe_JNI.
+- `pages/vulnerabilities/Unsafe_Mobile_Code.md`: Vulnerability reference article: Unsafe_Mobile_Code.
+- `pages/vulnerabilities/Unsafe_function_call_from_a_signal_handler.md`: Vulnerability reference article: Unsafe_function_call_from_a_signal_handler.
+- `pages/vulnerabilities/Unsafe_use_of_Reflection.md`: Vulnerability reference article: Unsafe_use_of_Reflection.
+- `pages/vulnerabilities/Use_of_Obsolete_Methods.md`: Vulnerability reference article: Use_of_Obsolete_Methods.
+- `pages/vulnerabilities/Use_of_hard-coded_password.md`: Vulnerability reference article: Use_of_hard-coded_password.
+- `pages/vulnerabilities/Using_a_broken_or_risky_cryptographic_algorithm.md`: Vulnerability reference article: Using_a_broken_or_risky_cryptographic_algorithm.
+- `pages/vulnerabilities/Using_freed_memory.md`: Vulnerability reference article: Using_freed_memory.
+- `pages/vulnerabilities/Vulnerability_template.md`: Vulnerability reference article: Vulnerability_template.
+- `pages/vulnerabilities/XML_External_Entity_(XXE)_Processing.md`: Vulnerability reference article: XML_External_Entity_(XXE)_Processing.
+- `pages/vulnerabilities/follina_vulnerability.md`: Vulnerability reference article: follina_vulnerability.
+- `pages/vulnerabilities/index.md`: Vulnerability reference article: index.
+- `pages/vulnerabilities/info.md`: Vulnerability reference article: info.
+- `pages/xss-filter-evasion-cheatsheet.md`: Security documentation page: xss-filter-evasion-cheatsheet.
+
+## Includes (_includes/)
+- `_includes/api-tools.html`: Reusable Jekyll include/partial template.
+- `_includes/favicons-database.html`: Reusable Jekyll include/partial template.
+- `_includes/tools.html`: Reusable Jekyll include/partial template.
+- `_includes/video.html`: Reusable Jekyll include/partial template.
+- `_includes/writers.html`: Reusable Jekyll include/partial template.
+
+## Data Files (_data/)
+- `_data/api-tools.yml`: Structured site data in YAML format.
+- `_data/community_events.json`: Structured site data in JSON format.
+- `_data/favicons-database.yml`: Structured site data in YAML format.
+- `_data/gsoc_admins.yml`: Structured site data in YAML format.
+- `_data/tools.json`: Structured site data in JSON format.
+
+## Static Assets (assets/)
+- `assets/files/README.md`: README/notes for assets in this folder.
+- `assets/images/Click_link.JPG`: Image asset used by documentation pages.
+- `assets/images/Control_flow_graph.png`: Image asset used by documentation pages.
+- `assets/images/DFD_data_flow.gif`: Image asset used by documentation pages.
+- `assets/images/DFD_data_store.gif`: Image asset used by documentation pages.
+- `assets/images/DFD_external_entity.gif`: Image asset used by documentation pages.
+- `assets/images/DFD_multiple_process.gif`: Image asset used by documentation pages.
+- `assets/images/DFD_privilege_boundary.gif`: Image asset used by documentation pages.
+- `assets/images/DFD_process.gif`: Image asset used by documentation pages.
+- `assets/images/Data_flow1.jpg`: Image asset used by documentation pages.
+- `assets/images/Data_flow2.jpg`: Image asset used by documentation pages.
+- `assets/images/Fig2-Disabling_HTTPOnly.PNG`: Image asset used by documentation pages.
+- `assets/images/Fig3-Read_HTTPOnly_Off.PNG`: Image asset used by documentation pages.
+- `assets/images/Fig4-Write_HTTPOnly_Off.PNG`: Image asset used by documentation pages.
+- `assets/images/Fig5-Turning_HTTPOnly_On.PNG`: Image asset used by documentation pages.
+- `assets/images/Fig6-Cookie_Read_Protection.PNG`: Image asset used by documentation pages.
+- `assets/images/Fig7-No_Cookie_Read_Protection.PNG`: Image asset used by documentation pages.
+- `assets/images/Fig9-No_Cookie_Write_Protection.PNG`: Image asset used by documentation pages.
+- `assets/images/LapsePlusScreenshot.png`: Image asset used by documentation pages.
+- `assets/images/README.md`: README/notes for assets in this folder.
+- `assets/images/RIPS.jpg`: Image asset used by documentation pages.
+- `assets/images/Riskfactors.JPG`: Image asset used by documentation pages.
+- `assets/images/Server-XSS_vs_Client-XSS_Chart.png`: Image asset used by documentation pages.
+- `assets/images/Session_id_guessing_1.png`: Image asset used by documentation pages.
+- `assets/images/Session_id_guessing_2.png`: Image asset used by documentation pages.
+- `assets/images/Session_id_guessing_3.png`: Image asset used by documentation pages.
+- `assets/images/Session_id_guessing_4.png`: Image asset used by documentation pages.
+- `assets/images/Session_id_guessing_5.png`: Image asset used by documentation pages.
+- `assets/images/Session_id_guessing_6.png`: Image asset used by documentation pages.
+- `assets/images/TABNABBING_OVERVIEW_WITHOUT_LINK.png`: Image asset used by documentation pages.
+- `assets/images/TABNABBING_OVERVIEW_WITH_LINK.png`: Image asset used by documentation pages.
+- `assets/images/Threat_Graph.gif`: Image asset used by documentation pages.
+- `assets/images/UseAndMisuseCase.jpg`: Image asset used by documentation pages.
+- `assets/images/XSS_in_Converting_File_Content_to_Text.png`: Image asset used by documentation pages.
+- `assets/images/attacks/NFA.png`: Image asset used by documentation pages.
+- `assets/images/attacks/RegexBasedWeb.png`: Image asset used by documentation pages.
+- `assets/images/attacks/Session_Attacks_Fixation.jpg`: Image asset used by documentation pages.
+- `assets/images/attacks/Session_Attacks_Fixation2.jpg`: Image asset used by documentation pages.
+- `assets/images/attacks/WSAMP_attack_scenario.png`: Image asset used by documentation pages.
+- `assets/images/attacks/WSAMP_tool.png`: Image asset used by documentation pages.
+- `assets/images/attacks/XSS_in_Converting_File_Content_to_Text_2.png`: Image asset used by documentation pages.
+- `assets/images/attacks/XSS_in_Converting_File_Content_to_Text_Attack_Scenario.png`: Image asset used by documentation pages.
+- `assets/images/attacks/code-injection.jpg`: Image asset used by documentation pages.
+- `assets/images/attacks/credential-stuffing.png`: Image asset used by documentation pages.
+- `assets/images/attacks/litl-attack.png`: Image asset used by documentation pages.
+- `assets/images/attacks/mitm-paros.jpg`: Image asset used by documentation pages.
+- `assets/images/attacks/predictable-cookie.jpg`: Image asset used by documentation pages.
+- `assets/images/attacks/qrl-normal-login-scenario.jpg`: Image asset used by documentation pages.
+- `assets/images/attacks/qrljacking-attack-flow.jpg`: Image asset used by documentation pages.
+- `assets/images/attacks/qrljacking-mitigation-scenario.jpg`: Image asset used by documentation pages.
+- `assets/images/attacks/session-hijacking.jpg`: Image asset used by documentation pages.
+- `assets/images/attacks/sql-injection-HPP.png`: Image asset used by documentation pages.
+- `assets/images/controls/Changing_Registered_Email_Address_In_A_System_Flowchart.png`: Image asset used by documentation pages.
+- `assets/images/controls/control_support.jpg`: Image asset used by documentation pages.
+- `assets/images/controls/src/plantuml/Changing_Registered_Email_Address_For_An_Account.puml`: PlantUML source diagram for generated visuals.
+- `assets/images/controls/src/plantuml/README.md`: README/notes for assets in this folder.
+- `assets/images/initiatives/code_sprint/170px-WinterCode.png`: Image asset used by documentation pages.
+- `assets/images/initiatives/code_sprint/424px-WinterCode.png`: Image asset used by documentation pages.
+- `assets/images/initiatives/code_sprint/WinterCode.png`: Image asset used by documentation pages.
+- `assets/images/initiatives/gsod/owaspjuiceshop_cover.jpg`: Image asset used by documentation pages.
+- `assets/images/passwd-spraying-attack.png`: Image asset used by documentation pages.
+- `assets/images/pin-cert.png`: Image asset used by documentation pages.
+- `assets/images/pin-pubkey.png`: Image asset used by documentation pages.
+- `assets/images/random-org-der-dump.png`: Image asset used by documentation pages.
+- `assets/images/random-org-der-hex.png`: Image asset used by documentation pages.
