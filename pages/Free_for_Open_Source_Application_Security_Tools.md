@@ -76,12 +76,14 @@ In addition, we are aware of the following commercial SAST tools that are free f
     - [CodeSweep - VS Code Plugin](https://hclsw.co/codesweep) -  Scans files upon saving them. The results show the location of a finding, type, and remediation advice. Auto-fix available with free trial or subscription.
     - [CodeSweep - JetBrains Plugin](https://hclsw.co/codesweep-jetbrains) -  Scans files upon saving them. The results show the location of a finding, type, and remediation advice. Auto-fix available with free trial or subscription.
     - [CodeSweep - GitHub Action](https://hclsw.co/codesweepgithub) - Scan the new code on a push/pull request using a GitHub action. Findings are highlighted in the `Files Changed` view and details about the issue and mitigation steps can be found in the `Actions` page. Unrestricted usage allowed with a free trial account.
+  - [Aevral](https://aevral.com/for/open-source-maintainers) - AI security reviewer, as a GitHub App, that checks pull requests for access control, business logic, injection, XSS, SSRF, path traversal and LLM-integration flaws, posting an advisory Check with inline comments. Not a secrets or dependency scanner. Free on public repositories: 500 PR reviews and 1 whole-repo scan per organization per month, no card required.
   - [Aikido](https://www.aikido.dev/product) - Combines open source software with custom rules & features into a single dashboard with all your security findings. Includes both SAST and Library Analysis tools. [Free for small teams and open-source-projects](https://www.aikido.dev/pricing).
   - [Arnica](https://www.arnica.io/solution/code-security) - Scans all source code repositories for code risks (SAST, SCA, IaC, license violations, and low 3rd party reputation) and hardcoded secrets. The platform comes with a [freemium plan](https://www.arnica.io/pricing) for unlimited time and users count. The [pipelineless security approach](https://www.arnica.io/blog/ci-cd-pipeline-security-vs-ide-plugins-vs-pipelineless-security) is the value the company charges for, so the visibility remains always free.
   - [Corgea](https://corgea.com/) - An AI-native SAST scanner that helps developers find and fix insecure code. It detects business logic flaws, broken authentication, API vulnerabilities and more with minimal false positives. Corgea automatically generates security fixes for developers to review and approve. Integrates with GitHub, GitLab, Azure DevOps, IDEs and CLI. [Free to use](https://corgea.com/pricing).
   - [KICS](https://www.kics.io/) by Checkmarx - Detects security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle of your infrastructure-as-code.
   - [Kusari](https://kusari.dev/inspector) - Kusari Inspector seamlessly integrates software supply chain security analysis into your pull requests. This checks for bad dependencies, licenses, quality data. [Free for individual use](https://www.kusari.dev/pricing).
   - [Xygeni](https://xygeni.io/xygeni-code-security/) - Provides Advanced SAST with real-time malware detection and AI-powered AutoFix. It helps developers find and fix vulnerabilities with minimal friction. Free for open source projects.
+  - [Zennoxa Shield](https://zennoxa.com) - Free, MIT-licensed CLI that runs one offline scan across SAST, secrets, dependencies (OSV plus a CycloneDX SBOM), containers, IaC and CI/CD configuration, with findings ranked by CVSS, EPSS, CISA KEV and code reachability. Comprehensive coverage for 14 languages (C, C++, C#, Dart, Go, Java, JavaScript, Kotlin, PHP, Python, Ruby, Rust, Swift, TypeScript), SARIF output for GitHub code scanning, and a GitHub Action. Publishes reproducible OWASP Benchmark results.
 
 ### DAST Tools
 
@@ -195,6 +197,13 @@ Free tools of this type:
      - Identifies, fixes and prevents known vulnerabilities. Read more at [https://debricked.com](https://debricked.com)
      - [Create a free account](https://app.debricked.com/en/register)
    - [retire.js](https://github.com/RetireJS/retire.js): free open source tool for finding javascript libraries with known vulnerabilities. Originally a command line tool, and there are plugins for browsers and scanners.
+  - [BomLens](https://github.com/sktelecom/bomlens): free open source (Apache-2.0)
+    tool that generates a CycloneDX SBOM from source code, containers, binaries,
+    firmware, or AI models, and reports known vulnerable components and license
+    risks. Runs locally in Docker with a CLI, web UI, and desktop app.
+  - [feldspar-scan](https://github.com/project-feldspar-resources/feldspar-scan): free open source (MIT)
+    single-file Python scanner and GitHub Action that checks lockfile dependencies against OSV.dev and
+    flags leaked-secret patterns. Built and maintained by an autonomous AI agent.
 
 
 Commercial tools of this type that are free for open source:
@@ -320,11 +329,11 @@ open source projects also consider using good code quality tools. A few that we 
 
 ### Defense Tools
   - [AWS Firewall Factory](https://github.com/globaldatanet/aws-firewall-factory) - An open source solution that makes it easy to deploy, update, and provision OWASP TOP 10 compliant web application firewalls (WAFs) at scale while centrally managing them with AWS Firewall Manager. This solution streamlines security management by enabling customisation of WAF configurations and adherence to AWS best practices.
-  - [DSSRF](https://github.com/HackingRepo/dssrf-js) - dssrf Defend Against SSRF attacks by providing huge of utils for validation, you integrate it with your web client before making request you validate the url for eliminating SSRF attacks.
   - [DepsGuard](https://depsguard.com/) - A free, open-source CLI tool that hardens package manager configurations against supply chain attacks. It scans and fixes npm, pnpm, yarn, bun, and uv configs to enable security best practices like minimum release age and disabling risky install scripts. Zero dependencies. MIT licensed.  
 
 ### Cloud Security Tools
   - [cloud-audit](https://github.com/gebalamariusz/cloud-audit) - An open-source (MIT) AWS security scanner that runs 94 checks across 23 AWS services, detects attack chains across misconfigurations, and generates remediation code (Terraform HCL and AWS CLI) for every finding. Supports CIS AWS Foundations Benchmark v3.0 and SOC 2 Type II compliance frameworks. Available on [PyPI](https://pypi.org/project/cloud-audit/), [Docker](https://github.com/gebalamariusz/cloud-audit/pkgs/container/cloud-audit), and as a [GitHub Action](https://github.com/gebalamariusz/cloud-audit). Free and open source for all use.
+  - [Cynative](https://github.com/cynative/cynative) - An open-source security research CLI that lets you query your infrastructure in plain language, read-only by construction. Connects to AWS, GCP, Azure, Kubernetes, GitHub, and GitLab using the credentials already in your shell, and authorizes every call through an action gate that permits only read and audit actions as defined by each provider. Supports bring-your-own-model so data stays under your control. Distributed as a single Go binary. Free for all use (Apache-2.0).
 
 ### Security Tools Built into DevOps/CI Environments
   - GitLab - is building security into their platform and it is quickly evolving [as described here](https://about.gitlab.com/direction/secure/#security-paradigm).

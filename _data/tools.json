@@ -88,6 +88,17 @@
 		]
 	},
 	{
+		"title": "allocguard",
+		"url": "https://github.com/tzh476/allocguard",
+		"owner": "Stephen Smith",
+		"license": "Open Source or Free",
+		"platforms": "CLI, CI/CD integration",
+		"note": "Checks Go source for make() capacity hints derived from untrusted input before that input is validated, a pattern that lets a parser reserve memory for data it then rejects. Syntactic analysis over the Go AST; no build, type information or dependencies required. Exits non-zero when findings are present for use in CI.",
+		"type": [
+			"SAST"
+		]
+	},
+	{
 		"title": "Almanax",
 		"url": "https://www.almanax.ai/",
 		"owner": "Almanax",
@@ -105,6 +116,17 @@
 		"license": "Commercial",
 		"platforms": "Docker, AWS, Kubernetes, Azure, GCP",
 		"note": "An SBOM-powered platform that protects and secures your software supply chain end-to-end. Free trial available.",
+		"type": [
+			"SAST"
+		]
+	},
+	{
+		"title": "ansible-security-scanner",
+		"url": "https://github.com/cpeoples/ansible-security-scanner",
+		"owner": null,
+		"license": "Open Source or Free",
+		"platforms": "CLI, CI/CD integration",
+		"note": "Static analyzer for Ansible playbooks, roles, and collections. Detects hardcoded credentials, command and template injection, RCE, and supply-chain risks. Outputs SARIF, CycloneDX SBOM, GitLab SAST, JUnit, JSON, and Markdown.",
 		"type": [
 			"SAST"
 		]
@@ -275,6 +297,17 @@
 		]
 	},
 	{
+		"title": "AutoSecT",
+		"url": "https://www.kratikal.com/autosect",
+		"owner": "Kratikal",
+		"license": "Commercial",
+		"platforms": "SaaS",
+		"note": "15 Days Free Trial",
+		"type": [
+			"DAST"
+		]
+	},
+	{
 		"title": "Bandit",
 		"url": "https://github.com/PyCQA/bandit",
 		"owner": null,
@@ -291,7 +324,7 @@
 		"owner": "Barrion",
 		"license": "Commercial or Free",
 		"platforms": "SaaS",
-		"note": "Barrion is a developer-focused platform that strengthens web application security with automated tests that detect and notify teams of potential security issues.",
+		"note": "AI pentesting for web apps and APIs, on demand or on a schedule. Free passive website scan (TLS, headers, cookies, DNS).",
 		"type": [
 			"DAST"
 		]
@@ -482,6 +515,17 @@
 		"note": null,
 		"type": [
 			"DAST"
+		]
+	},
+	{
+		"title": "CodeCordon",
+		"url": "https://codecordon.up.railway.app/",
+		"owner": "CodeCordon",
+		"license": "Commercial or Free",
+		"platforms": "SaaS, CLI, CI/CD integration",
+		"note": "Deterministic static analysis for AI-generated applications. Scans authorized public GitHub repositories for code and configuration risks and returns file, line, and remediation findings. Provides a free no-account preview, with CLI and GitHub Actions integration on paid plans.",
+		"type": [
+			"SAST"
 		]
 	},
 	{
@@ -738,17 +782,6 @@
 		]
 	},
 	{
-		"title": "DSSRF",
-		"url": "https://github.com/HackingRepo/dssrf-js",
-		"owner": "RelunSec",
-		"license": "Free",
-		"platforms": "NodeJS",
-		"note": "dssrf Defend Against SSRF attacks by providing huge of utils for validation, you integrate it with your web client before making request you validate the url for eliminating SSRF attacks.",
-		"type": [
-			"SAST"
-		]
-	},
-	{
 		"title": "Edgescan",
 		"url": "https://www.edgescan.com/",
 		"owner": "Edgescan",
@@ -790,6 +823,28 @@
 		"note": "Escape is a modern DAST with a native business logic security testing algorithm. It supports modern web frameworks, integrates easily into CI/CD pipelines, and provides framework-specific, developer-friendly code snippets.",
 		"type": [
 			"DAST"
+		]
+	},
+	{
+		"title": "Extuno",
+		"url": "https://extuno.com",
+		"owner": "Extuno",
+		"license": "Commercial or Free",
+		"platforms": "SaaS, CLI (macOS, Linux, Windows), CI/CD",
+		"note": "Supply-chain analysis for packages and browser extensions across 12 ecosystems (npm, PyPI, Maven, Composer, WordPress, Chrome, Firefox, VS Code and others). Diffs every published version to catch a release that turns malicious in an update, combining static rules, source review and execution in an isolated microVM. The MIT-licensed CLI gates pip installs before the artifact reaches the machine and emits SARIF for CI.",
+		"type": [
+			"SCA"
+		]
+	},
+	{
+		"title": "feldspar-scan",
+		"url": "https://github.com/project-feldspar-resources/feldspar-scan",
+		"owner": "Project Feldspar (L3Digital LLC)",
+		"license": "Open Source",
+		"platforms": "CLI (Python 3.11+, any OS), GitHub Action",
+		"note": "MIT-licensed, single-file, standard-library-only scanner. Looks up npm, PyPI, Go, crates.io and RubyGems lockfile dependencies in OSV.dev, matches leaked-secret patterns, and runs a few config checks. Deterministic output with a JSON report and a severity gate for CI; no LLM, account or telemetry. Built and maintained by an autonomous AI agent; no human reviews findings.",
+		"type": [
+			"SCA"
 		]
 	},
 	{
@@ -1080,6 +1135,17 @@
 		]
 	},
 	{
+		"title": "HunterX",
+		"url": "https://github.com/nullc0d30/HunterX",
+		"owner": "Ahmed Awad (NullC0d3)",
+		"license": "Open Source",
+		"platforms": "Linux, macOS, Windows",
+		"note": "Web application and API vulnerability scanner with optional AI-assisted analysis.",
+		"type": [
+			"DAST"
+		]
+	},
+	{
 		"title": "HuskyCI",
 		"url": "https://github.com/globocom/huskyCI",
 		"owner": null,
@@ -1154,6 +1220,17 @@
 		"note": null,
 		"type": [
 			"DAST"
+		]
+	},
+	{
+		"title": "iosy",
+		"url": "https://opensyntaxx.com/",
+		"owner": "OpenSyntaxx",
+		"license": "Commercial",
+		"platforms": "Most platforms supported",
+		"note": "iosy decompiles iOS apps (.ipa files) into readable Swift source code.",
+		"type": [
+			"SAST"
 		]
 	},
 	{
@@ -1478,12 +1555,14 @@
 	{
 		"title": "Offensive360",
 		"url": "https://offensive360.com/",
-		"owner": null,
+		"owner": "O360 B.V.",
 		"license": "Commercial",
-		"platforms": null,
-		"note": "SAST technology that attacks the source code from all corners it has all in one. Malware, SCA, License, and deep source code analysis.",
+		"platforms": "SaaS or self-hosted (on-premise virtual appliance, supports air-gapped networks)",
+		"note": "Combines SAST (60+ languages, taint/data-flow analysis), DAST, SCA, mobile app testing (Android/iOS), malware and binary analysis, and open-source license compliance in one platform. SARIF output, CI/CD and IDE integrations.",
 		"type": [
-			"SAST"
+			"SAST",
+			"DAST",
+			"SCA"
 		]
 	},
 	{
@@ -1509,6 +1588,17 @@
 		]
 	},
 	{
+		"title": "ONUS",
+		"url": "https://github.com/maverickaayush/ONUS",
+		"owner": "Aayush Yadav",
+		"license": "Open Source",
+		"platforms": "Linux, macOS, Windows",
+		"note": "Open-source web application vulnerability scanner with deterministic CVSS scoring, AI-assisted analysis, and plain-English remediation guidance that enables developers without security expertise to understand and fix vulnerabilities.",
+		"type": [
+			"DAST"
+		]
+	},
+	{
 		"title": "OpenApi Security",
 		"url": "https://openapi.security",
 		"owner": "Escape",
@@ -1517,6 +1607,17 @@
 		"note": "Free. No account required.",
 		"type": [
 			"DAST"
+		]
+	},
+	{
+		"title": "OpenTaint",
+		"url": "https://github.com/seqra/opentaint",
+		"owner": "Seqra",
+		"license": "Open Source",
+		"platforms": null,
+		"note": "Open source taint analysis engine designed to work with AI agents. During a security review, the agent enacts what it learns: vulnerability patterns as taint rules forbidding classes of dataflow traces, and code behavior as summaries letting the engine see through code it never analyzed. The engine itself is built to hold all three corners of the classic trilemma — scan time, false alarms, missed findings — tracking traces across procedures, fields, and aliases at scale. Learning is expensive and unpredictable, searching cheap and deterministic — so the agent learns the code on demand, the engine searches it on every scan, and the security review becomes lean and continuous.",
+		"type": [
+			"SAST"
 		]
 	},
 	{
@@ -1627,6 +1728,17 @@
 		"note": "Scans PHP",
 		"type": [
 			"SAST"
+		]
+	},
+	{
+		"title": "Penetrify.cloud",
+		"url": "https://www.penetrify.cloud",
+		"owner": "Penetrify.cloud",
+		"license": "Commercial or Free",
+		"platforms": "SaaS",
+		"note": "Autonomous AI penetration testing for web applications and APIs. Runs in CI/CD pipelines and reports OWASP Top 10 and other vulnerability classes with reproduction steps. Free trial available.",
+		"type": [
+			"DAST"
 		]
 	},
 	{
@@ -1818,11 +1930,11 @@
 	},
 	{
 		"title": "PVS-Studio",
-		"url": "https://www.viva64.com/en/pvs-studio/",
+		"url": "https://pvs-studio.com/en/pvs-studio/",
 		"owner": null,
-		"license": "Open Source or Free",
-		"platforms": null,
-		"note": "C, C++, C#. Commercial options exist as well.",
+		"license": "Commercial",
+		"platforms": "Windows, Linux, MacOS",
+		"note": "A static code analyzer for Enterprise (C, C++, C#, Go, and Java) and Web (JS and TS) development.",
 		"type": [
 			"SAST"
 		]
@@ -1861,12 +1973,34 @@
 		]
 	},
 	{
+		"title": "quantakrypto/pqc-tools",
+		"url": "https://github.com/quantakrypto/pqc-tools",
+		"owner": "quantakrypto",
+		"license": "Open Source",
+		"platforms": null,
+		"note": "Open-source scanner that finds quantum-vulnerable cryptography (RSA/ECDH/ECDSA/DH) in source code and gives NIST post-quantum (ML-KEM/ML-DSA/SLH-DSA) migration guidance. SARIF output and a CI gate.",
+		"type": [
+			"SAST"
+		]
+	},
+	{
 		"title": "ReconwithMe",
 		"url": "https://reconwithme.com/",
 		"owner": "Nassec",
 		"license": "Commercial",
 		"platforms": "SaaS",
 		"note": "Paid Option Available",
+		"type": [
+			"DAST"
+		]
+	},
+	{
+		"title": "Reeve",
+		"url": "https://reeve.page/security-scanner",
+		"owner": "Reeve",
+		"license": "Commercial or Free",
+		"platforms": "SaaS",
+		"note": "Passive outside-in scan of a deployed web app, aimed at apps made with AI app builders: secrets in the loaded JS bundles, Supabase tables and Storage buckets open to the public key (rows counted, never read), exposed files, source maps, CORS, headers, TLS. Free; paid plans re-scan on a schedule",
 		"type": [
 			"DAST"
 		]
@@ -1924,6 +2058,28 @@
 		"note": "Modern application security testing platform built to proactively identify and remediate security gaps in Web Applications and APIs.",
 		"type": [
 			"DAST"
+		]
+	},
+	{
+		"title": "RowShield",
+		"url": "https://rowshield.dev/",
+		"owner": "Veristria",
+		"license": "Commercial or Free",
+		"platforms": "SaaS",
+		"note": "Supabase-focused: probes a deployed app's public Data API from the outside for tables and storage that anonymous callers can read (free, read-only); paid plans add scheduled RLS policy and drift checks",
+		"type": [
+			"DAST"
+		]
+	},
+	{
+		"title": "SafetyCard",
+		"url": "https://github.com/safetycard/safetycard",
+		"owner": "SafetyCard",
+		"license": "Open Source",
+		"platforms": "Windows, Linux, MacOS",
+		"note": "Safety-check MCP servers and AI agents against the OWASP Top 10 for Agentic Applications, and get the safest setup to run them. Open-source plugin for Claude Code and Codex that reviews an agent's source code and cites file:line evidence for every rating.",
+		"type": [
+			"SAST"
 		]
 	},
 	{
@@ -2078,6 +2234,17 @@
 		"note": "Static security analysis for 10+ languages.",
 		"type": [
 			"SAST"
+		]
+	},
+	{
+		"title": "SEOAudit",
+		"url": "https://seoaudit.com.ua/",
+		"owner": "SEOAudit",
+		"license": "Commercial or Free",
+		"platforms": "SaaS",
+		"note": "Passive, non-intrusive website scanner (no registration for the free scan): checks HTTPS redirects, security headers, cookies, SSL/TLS, SPF/DMARC, robots.txt, sitemap, security.txt and on-page SEO tags; no exploitation, port scanning or password guessing",
+		"type": [
+			"DAST"
 		]
 	},
 	{
@@ -2400,6 +2567,17 @@
 		]
 	},
 	{
+		"title": "Vigolium",
+		"url": "https://github.com/vigolium/vigolium",
+		"owner": "j3ssie",
+		"license": "Open Source",
+		"platforms": "Unix/Linux, and Macintosh",
+		"note": "Vigolium is High-fidelity vulnerability scanner fusing agentic AI with native speed, modularity, and precision",
+		"type": [
+			"DAST"
+		]
+	},
+	{
 		"title": "VisualCodeGrepper (VCG)",
 		"url": "https://sourceforge.net/projects/visualcodegrepp/",
 		"owner": null,
@@ -2430,6 +2608,17 @@
 		"note": "An SCA solution that seamlessly monitors applications for open-source vulnerabilities without code access or installations, delivering real-time alerts.",
 		"type": [
 			"SAST"
+		]
+	},
+	{
+		"title": "Vullify",
+		"url": "https://vullify.com/",
+		"owner": "Vullify",
+		"license": "Commercial",
+		"platforms": "SaaS",
+		"note": "Vullify is a next-gen vulnerability management Detection and Response Platform",
+		"type": [
+			"DAST"
 		]
 	},
 	{
@@ -2606,6 +2795,18 @@
 		"note": "Apache-2.0",
 		"type": [
 			"DAST"
+		]
+	},
+	{
+		"title": "Zennoxa Shield",
+		"url": "https://zennoxa.com",
+		"owner": "Zennoxa",
+		"license": "Open Source or Free",
+		"platforms": "CLI (macOS, Linux, Windows), CI/CD",
+		"note": "Open-source (MIT) developer-first scanner. One offline pass runs SAST, dependency (SCA), secret, container and IaC checks across 24 languages, then ranks findings by whether the vulnerable code is reachable. Emits SARIF and a CycloneDX/SPDX SBOM.",
+		"type": [
+			"SAST",
+			"SCA"
 		]
 	},
 	{
